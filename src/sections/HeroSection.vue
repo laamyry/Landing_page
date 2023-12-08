@@ -8,8 +8,13 @@
         <h1 class="text-4xl xl:text-5xl font-bold font-theme-heading text-center lg:text-left">Home Mingle</h1>
         <p class="lg:text-xl mt-10 font-theme-content text-theme-grayish-blue text-center lg:text-left">Home Mingle Hub: Elevate your space with trusted professionals. Seamless connections, limitless possibilities for your home.</p>
         <div class="flex justify-center lg:justify-start mt-10">
-          <LinkButton btn-type="primary" link="#download-section">Live Demo</LinkButton>
-          <LinkButton btn-type="muted" link="#download-section">Github Repo</LinkButton>
+          <a class="font-theme-heading font-medium bg-[#11D28C] px-6 py-2 text-white rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-primary hover:text-theme-primary cursor-pointer transition duration-200 mr-5" href="https://home-mingle.vercel.app/">
+            <button>Live Demo</button>
+          </a>
+
+          <a class="font-theme-heading font-medium bg-gray-100 text-gray-500 px-6 py-2 rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-grayish-blue hover:text-theme-grayish-blue cursor-pointer transition duration-200" href="https://github.com/laamyry/HomeMingle/">
+            <button>Github Repo</button>
+          </a>
         </div>
       </div>
       <div class="relative order-1 lg:order-none mb-20 lg:mt-0 lg:mb-0 lg:-mr-10 shadow-md rounded-md">
