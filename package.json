@@ -1,17 +1,16 @@
 {
-  "homepage": "https://homemingle.github.io",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "npm preview",
+    "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "sweetalert2": "^11.6.13",
+    "sweetalert2": "^11.7.18",
     "vue": "^3.3.4",
     "vue3-smooth-scroll": "^0.8.1"
   },
@@ -22,7 +21,6 @@
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.26",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.0",
-    "vittest": "^1.0.2"
+    "vite": "^4.5.1"
   }
 }
