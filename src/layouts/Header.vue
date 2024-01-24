@@ -26,8 +26,8 @@ let toggleMobileNav = () => {
 
         <!-- Desktop Menu -->
         <ul class="space-x-10 font-theme-heading font-medium items-center hidden md:flex flex-col space-y-7 md:space-y-0 md:flex-row">
-          <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#features" v-smooth-scroll>Features</a></li>
-          <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#faq" v-smooth-scroll>About</a></li>
+          <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#features" v-smooth-scroll>Características</a></li>
+          <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="#faq" v-smooth-scroll>Nosotros</a></li>
         </ul>
       </nav>
     </header>
@@ -45,16 +45,10 @@ let toggleMobileNav = () => {
         </div>
         <ul class="uppercase text-white text-md tracking-widest items-center flex flex-col mt-14">
           <li class="hover:text-theme-secondary transition duration-200 py-4 border-t border-b border-theme-grayish-blue w-full text-center">
-            <a @click="toggleMobileNav()" href="#features">Features</a>
+            <a @click="toggleMobileNav()" href="#features">Características</a>
           </li>
           <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
-            <a @click="toggleMobileNav()" href="#faq">ABOUT</a>
-          </li>
-          <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
-            <a @click="toggleMobileNav()" href="#subscribe">Subscribe</a>
-          </li>
-          <li class="bg-transparent border-2 rounded px-6 py-2 mt-6 w-full text-center cursor-pointer hover:text-theme-secondary transition duration-200">
-            <a @click="toggleMobileNav()" href="#about">Download</a>
+            <a @click="toggleMobileNav()" href="#faq">Nosotros</a>
           </li>
         </ul>
         <div class="flex justify-center items-end h-52">

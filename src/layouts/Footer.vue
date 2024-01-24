@@ -11,10 +11,10 @@
           </div>
           <ul class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-8 text-xs text-center md:text-left font-theme-heading">
             <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-              <a href="#features" v-smooth-scroll>Features</a>
+              <a href="#features" v-smooth-scroll>Características</a>
             </li>
             <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-              <a href="#faq" v-smooth-scroll>ABOUT</a>
+              <a href="#faq" v-smooth-scroll>Nosotros</a>
             </li>
           </ul>
         </div>
